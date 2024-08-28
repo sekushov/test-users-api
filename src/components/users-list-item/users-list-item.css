@@ -1,0 +1,38 @@
+.list-group-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid #377d3f;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.list-group-item:hover {
+    background-color: #eeeeee;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group-item__name {
+    width: 25%;
+    font-weight: 600;
+}
+.list-group-item__age {
+    width: 15%;
+}
+.list-group-item__gender {
+    width: 15%;
+}
+.list-group-item__phone {
+    width: 20%;
+}
+.list-group-item__address {
+    width: 25%;
+}
+
+@media (max-width: 400px) {
+    .list-group-item {
+        padding: 15px 10px;
+    }
+}

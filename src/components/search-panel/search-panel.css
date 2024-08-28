@@ -1,0 +1,12 @@
+.search-panel {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #377d3f;
+    border-radius: 4px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .15);
+    color: #fff;
+}
+.form-control:focus {
+    border-color: #86fe88;
+    box-shadow: 0 0 0 .25rem #377d3f39;
+}
